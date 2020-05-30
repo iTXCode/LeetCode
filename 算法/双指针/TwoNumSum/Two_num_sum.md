@@ -6,7 +6,9 @@ public:
 	int left=0;
 	int right=numbers.size()-1;
 	
-whil
+	while(left<right){
+		
+	}
     }
-}
+};
 ```

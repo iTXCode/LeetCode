@@ -9,7 +9,9 @@ public:
 	while(left<right){
 		if(numbers[left]+numbers[right]==target){
 			return {left+1,right+1};
-		}else if(numbers[left]+numbers[right]>
+		}else if(numbers[left]+numbers[right]>target){
+			right--;
+		}else{}
 	}
     }
 };

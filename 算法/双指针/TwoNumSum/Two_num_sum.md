@@ -7,7 +7,9 @@ public:
 	int right=numbers.size()-1;
 	
 	while(left<right){
-		if(numbers[left]+num
+		if(numbers[left]+numbers[right]==target){
+			return {left+1,right+
+		}
 	}
     }
 };

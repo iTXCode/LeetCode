@@ -3,7 +3,10 @@
 class Solution{
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
-	int 
+	int left=0;
+	int right=numbers.size()-1;
+	
+whil
     }
 }
 ```

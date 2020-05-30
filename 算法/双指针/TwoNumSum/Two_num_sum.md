@@ -1,4 +1,5 @@
 ### TwoNumSum
+
 ```cpp
 class Solution{
 public:
@@ -11,8 +12,11 @@ public:
 			return {left+1,right+1};
 		}else if(numbers[left]+numbers[right]>target){
 			right--;
-		}else{}
+		}else{
+			left++;
+		}
 	}
+	return {-1,-1};
     }
 };
 ```

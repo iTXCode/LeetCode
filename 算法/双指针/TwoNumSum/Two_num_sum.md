@@ -7,7 +7,7 @@ public:
 	int right=numbers.size()-1;
 	
 	while(left<right){
-		
+		if(
 	}
     }
 };

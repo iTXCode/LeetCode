@@ -1,6 +1,7 @@
 ### TwoNumSum
+
 ==双指针==
-==二分==
+==二分差找==
 ```cpp
 class Solution{
 public:
